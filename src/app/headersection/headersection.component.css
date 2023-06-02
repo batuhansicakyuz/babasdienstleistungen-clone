@@ -2,11 +2,13 @@
 
 .main{
   margin: auto;
-    width: 90%;
+    width: 70%;
     padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #182937;
+    color: white;
 }
 
 div.c {
@@ -18,6 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #182937;
 }
 
 li {
@@ -26,7 +29,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,6 +40,7 @@ li a:hover:not(.active) {
 }
 
 .active {
+  background-color: white;
 }
 
 .vertical-center {
@@ -48,6 +52,7 @@ li a:hover:not(.active) {
 }
 
 body {
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +60,7 @@ body {
 }
 
 nav {
+  background-color: #182937;
   display: block;
   padding: 1em 0;
   text-align: center;
@@ -68,6 +74,7 @@ nav a {
 }
 
 .scrolling-box {
+  background-color: #182937;
   display: block;
   height: 200px;
   overflow-y: scroll;
@@ -84,39 +91,5 @@ section {
 }
 
 .mainbackground{
-
-  width: 100%;
-}
-
-.center {
-    margin: auto;
-    width: 70%;
-    padding: 20px;
-    display: flex;
-    color: black;
-  }
-
-h1 {
-  font-size: 70px;
-}
-
-.body1{
-margin-left: 40px;
-     width: 55%;
-     padding: 10px;
-     color: black;
-}
-
-div.transbox {
-  margin: 70px;
-  background-color: #808080;
-  opacity: 0.6;
-}
-
-section {
-    display: table;
-  }
-
-.mat-raised-button {
-background-color: #red;
+  background-color: #182937;
 }

@@ -13,6 +13,8 @@ import { FifthSection } from './fifthsection/fifthsection.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
 
+import { HeaderSection } from './headersection/headersection.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +24,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
     ThirdSection,
     FourthSection,
     FifthSection,
+    HeaderSection,
   ],
   imports: [
     BrowserModule,
