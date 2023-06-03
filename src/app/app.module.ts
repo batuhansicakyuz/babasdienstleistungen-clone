@@ -8,12 +8,15 @@ import { HeaderComponent } from './header/header.component';
 import { MatButtonModule } from '@angular/material/button';
 import { SecondSection } from './secondsection/secondsection.component';
 import { ThirdSection } from './thirdsection/thirdsection.component';
-import { FourthSection } from './fourthsection/fourthsection.component';
+import { HomeComponent } from './home/home.component';
 import { FifthSection } from './fifthsection/fifthsection.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
 
 import { HeaderSection } from './headersection/headersection.component';
+import { FirstComponent } from './first/first.component';
+
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,15 +25,18 @@ import { HeaderSection } from './headersection/headersection.component';
     FirstSection,
     SecondSection,
     ThirdSection,
-    FourthSection,
+    HomeComponent,
     FifthSection,
     HeaderSection,
+    FirstComponent,
+
   ],
   imports: [
     BrowserModule,
     NgbModule,
     MatButtonModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
