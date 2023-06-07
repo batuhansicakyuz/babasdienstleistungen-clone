@@ -17,6 +17,7 @@ import { HeaderSection } from './headersection/headersection.component';
 import { FirstComponent } from './first/first.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     FifthSection,
     HeaderSection,
     FirstComponent,
+    ProfileEditorComponent,
 
   ],
   imports: [
