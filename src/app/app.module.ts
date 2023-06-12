@@ -31,7 +31,6 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     HeaderSection,
     FirstComponent,
     ProfileEditorComponent,
-
   ],
   imports: [
     BrowserModule,
