@@ -19,6 +19,8 @@ import { FirstComponent } from './first/first.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +40,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     MatButtonModule,
     GoogleMapsModule,
     AppRoutingModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

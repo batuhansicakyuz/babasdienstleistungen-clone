@@ -185,6 +185,22 @@ float: left;
   padding: 15px;
 }
 
+.bodytext3{
+background-color:green;
+box-sizing: content-box;
+     width: 300%;
+float: left;
+  padding: 15px;
+  color:white;
+}
+
+.rightprogress{
+position: absolute;
+  right: 500px;
+  width: 600px;
+  padding: 10px;
+}
+
 .alignleft2 {
 	float: left;
     width: 60%;
