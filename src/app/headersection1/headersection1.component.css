@@ -1,0 +1,102 @@
+
+
+.main{
+  margin: auto;
+    width: 70%;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #182937;
+    color: white;
+}
+
+div.c {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #182937;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: red;
+}
+
+.active {
+  background-color: white;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #182937;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+  width: 200px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.scrolling-box {
+  background-color: #182937;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 200px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.mainbackground{
+  background-color: #182937;
+}
+.instagram{
+color:white;
+background-color: #182937;
+}
+.right{
+    float:right;
+}
